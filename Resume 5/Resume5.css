@@ -1,0 +1,49 @@
+h1 {
+  color: white;
+  font: size 20px;
+  background-color: gray;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+body {
+  margin: 20px;
+  border: 5px solid gray;
+  border-radius: 30px;
+  padding: 10px;
+}
+head {
+  background-color: gray;
+}
+
+p {
+  font-style: oblique;
+}
+
+footer {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+.name {
+  background-color: gray;
+}
+
+p,
+h1 {
+  padding-left: 30px;
+}
+
+img {
+  border-radius: 200px;
+  padding: 10px;
+  width: 350px;
+  height: 400px;
+}
