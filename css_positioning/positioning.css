@@ -1,0 +1,77 @@
+.section {
+  background-color: orchid;
+  padding: 10px;
+}
+
+div {
+  padding: 10px;
+  margin: 3px;
+}
+/* 1st digit=Top and bottom, 2nd digit=left and right, it overrides the margin-top/bottom/left/right */
+p {
+  margin: 80px 0;
+}
+/* Positioning */
+/* If there's a parent element, all the child elements will move relative to it as long as it's a relative, absolute, fixed, or sticky (and not static)  */
+
+/* Static=follows the standard html flow */
+.a {
+  background-color: aqua;
+  /* Relative: moves staticly relative to itself (i.e you can adjust the L, R, T, and bottom) */
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.b {
+  background-color: blue;
+  /* Absolute is removed from the doc flow, it moves in isolation, it is position relative to its parent/container element */
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.c {
+  background-color: yellowgreen;
+  /* It's position relative to a browser window (a.k.a Viewport), instead of the web page or parent */
+  position: fixed;
+  bottom: 5px;
+}
+
+.d {
+  background-color: gray;
+/* Has characteristics of static and fixed. E.g When you scroll it will move, but once it reaches the bottom and gets to a bottom margin of 10px, then it will become fixed*/
+  position: sticky
+  bottom: 10px 
+}
+
+/* Laying elements with flex */
+/* It creates 3 solid blocks, the flex integer is used to distribute the size between the 3 blocks */
+#container{
+    display:flex;
+    /* You could justify content with the value: flex-start/flex-end/center/space-between/space-around */
+    justify-content: space-between 
+}
+
+#box1{
+    /* size of the border, the type of border (solid, dotted, dashed, double, groove,ridge, inset, outset), color of the border */
+    border: 1px solid black;
+    padding: 10px;
+    Flex: 3;
+    /* Use width to describe how you want the content to be justified */
+    width: 20%;
+}
+
+#box2{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 2;
+    width: 20%;
+}
+
+#box3{
+    border: 1px solid black;
+    padding: 10px;
+    flex:3;
+    width: 20%;
+}
