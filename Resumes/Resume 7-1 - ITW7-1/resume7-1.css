@@ -1,6 +1,6 @@
 h1 {
   color: white;
-  font: size 20px;
+  font-size: 20px;
   background-color: gray;
   padding: 2px;
   border-radius: 10px;
@@ -53,7 +53,7 @@ a {
   background-color: gray;
 }
 
-.p,
+p,
 h1 {
   padding-left: 30px;
 }
@@ -63,4 +63,30 @@ img {
   padding: 10px;
   width: 350px;
   height: 350px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  background-color: gray;
+  border-radius: 2%;
+  margin: 12px;
+}
+
+label,
+input,
+select {
+  display: table-row;
+  margin: 1px;
+  padding: 2px;
+}
+
+input[type="text"],
+select {
+  width: 20%;
+  height: 20%;
+  box-sizing: border-box;
 }
