@@ -20,7 +20,7 @@ body {
 
 p {
   font-style: oblique;
-  margin: 5px;
+  margin-left: 5px;
   padding: 10px;
 }
 
@@ -51,11 +51,6 @@ a {
 
 .name {
   background-color: gray;
-}
-
-p,
-h1 {
-  padding-left: 0px;
 }
 
 img {
