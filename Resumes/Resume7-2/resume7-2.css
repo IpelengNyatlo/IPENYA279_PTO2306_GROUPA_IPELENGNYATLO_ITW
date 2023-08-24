@@ -103,6 +103,8 @@ textarea {
 
 .banner {
   background: gray url(https://i.postimg.cc/hGd95j56/background-banner.jpg);
+  background-repeat: repeat;
+  background-position: 100%;
 }
 
 image {
