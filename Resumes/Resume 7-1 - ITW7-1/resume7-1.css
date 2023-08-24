@@ -55,7 +55,7 @@ a {
 
 p,
 h1 {
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 img {
@@ -65,15 +65,15 @@ img {
   height: 350px;
 }
 
-.name {
-  display: flex;
-  flex-direction: column;
-}
-
 fieldset {
   background-color: gray;
   border-radius: 2%;
   margin: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 label,
@@ -84,9 +84,23 @@ select {
   padding: 2px;
 }
 
-input[type="text"],
-select {
+#name,
+.subject,
+#email {
   width: 20%;
   height: 20%;
   box-sizing: border-box;
+}
+
+#location {
+  display: flex;
+  flex-direction: row;
+}
+
+.submit {
+  width: 10%;
+}
+
+textarea {
+  width: 20%;
 }
